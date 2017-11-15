@@ -401,7 +401,7 @@ The .. and . Relative Paths
 
 There are two special paths, the `.` and `..` - these are are used for what are _relative_ paths.
 
-The `..` directory is the directory _above_ the current working directory. So while still in the `~/temp` directory you type 'ls ..` and you will see the contents of the home directory:
+The `..` directory is the directory _above_ the current working directory. So while still in the `~/temp` directory you type `ls ..` and you will see the contents of the home directory:
 
 ```
 $ ls ..
@@ -410,7 +410,7 @@ Documents	Library		Music		Public
 $
 ```
 
-While in the ~/temp you can also enter `ls ../` to see sibling directories under the home directory.
+While in the ~/temp you can also enter `ls ../{directory name}` to see sibling directories under the home directory.
 
 If you were deep inside a complex set of directories, you can get out of them by entering `cd ..` - note how the prompt changes after each command:
 
